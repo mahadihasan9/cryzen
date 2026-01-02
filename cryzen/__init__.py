@@ -14,7 +14,7 @@ Here’s a quick guide on how to use what's inside:
 
 ● AstraCrypt: This is the heavyweight champion here. It uses AES-256-CBC 
   to keep your data super secure. Use this for sensitive stuff like private 
-  messages or files. (Make sure you have 'pycryptodome' installed!)
+  messages or files. (Make sure yo vpyypto installed!)
   
   Example:
     >>> from cryzen import astra_encrypt, astra_decrypt
@@ -66,3 +66,20 @@ Find me on GitHub: https://github.com/mahadi99900/cryzen
 Happy Coding! 💻
 """
 
+from .astracrypt import astra_encrypt, astra_decrypt
+from .flux import flux_encrypt, flux_decrypt
+from .nova import nova_hash
+from .omega import omega_hash
+from .terra import terra_hash
+from .zencode import zencode_encrypt, zencode_decrypt
+
+__all__ = [
+    'astra_encrypt', 'astra_decrypt',
+    'flux_encrypt', 'flux_decrypt',
+    'nova_hash', 'omega_hash',
+    'terra_hash',
+    'zencode_encrypt', 'zencode_decrypt'
+]
+
+def hello():
+    print("Cryzen 0.1.2 is ready and loaded!")

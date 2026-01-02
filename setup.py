@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="cryzen",
-    version="0.1.1",
+    version="0.1.2",
     author="Mahadi bin Iqbal",
     author_email="islammdmahadi943@gmail.com",
     description="A powerful & modular toolkit for modern cryptography and hashing.",
