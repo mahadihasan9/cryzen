@@ -66,6 +66,11 @@ dir(cryzen)
 - `astra_encrypt` is secure when secret_key is strong and kept private. Use `pycryptodome` for AES implementation.
 - Use `omega_hash` for password storage (store full token).
 - Never hardcode secrets in distributed code.
+- **Source Code on GitHub:** [Osman_Hadi Repository](https://github.com/mahadi99900/Osman_Hadi)
+
+### (Contact Me):
+- **WhatsApp & Telegram:** [+8801701902728](https://wa.me/8801701902728)
+- **Email:** [islammdmahadi943@gmail.com](mailto:islammdmahadi943@gmail.com)
 
 ## License
 
